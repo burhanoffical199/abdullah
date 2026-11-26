@@ -2,84 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<footer class="main-footer">
-    <div class="footer-container">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velora - Modern Shopping</title>
+    <link rel="stylesheet" href="style.css">
 
-        <!-- Brand -->
-        <div class="footer-column footer-about">
-            <h2>Richmond<span> Institute</span></h2>
-            <p>
-                Empowering futures with excellence in education.
-                Learn professional skills and build your career
-                with Richmond Institute.
-            </p>
-
-            <div class="social-links">
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
-            </div>
-        </div>
-
-        <!-- Courses -->
-        <div class="footer-column">
-            <h3>Our Courses</h3>
-            <ul>
-                <li><a href="#">Short Courses</a></li>
-                <li><a href="#">Diploma Courses</a></li>
-                <li><a href="#">International Courses</a></li>
-                <li><a href="#">Digital Marketing</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Graphic Designing</a></li>
-            </ul>
-        </div>
-
-        <!-- About -->
-        <div class="footer-column">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">Leadership</a></li>
-                <li><a href="#">Mission & Vision</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Student Testimonials</a></li>
-            </ul>
-        </div>
-
-        <!-- Contact -->
-        <div class="footer-column footer-contact">
-            <h3>Contact Us</h3>
-
-            <p>📍 Australia House, P-56 Chenab Market,
-                Madina Town, Faisalabad</p>
-
-            <p>📞 +92 300 156 3009</p>
-            <p>📞 +92 304 111 6065</p>
-
-            <p>✉ info@ri.edu.pk</p>
-
-            <a href="https://join.ri.edu.pk/" class="footer-btn">
-                Join Now →
-            </a>
-        </div>
-
-    </div>
-
-    <!-- Bottom Footer -->
-    <div class="footer-bottom">
-        <p>© 2026 Richmond Institute. All Rights Reserved.</p>
-
-        <div>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-        </div>
-    </div>
-
-</footer>, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    
+
+<nav class="navbar">
+
+
+    <a href="#" class="logo">
+        VELORA<span>.</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="active">Home</a></li>
+
+        <li class="dropdown">
+            <a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+                <a href="#">All Products</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Best Sellers</a>
+                <a href="#">Collections</a>
+            </div>
+        </li>
+
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">About Us</a></li>
+    </ul>
+
+    <div class="nav-right">
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchInput" placeholder="Search products...">
+        </div>
+
+       
+        <button class="icon-btn" title="Wishlist">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+
+      
+        <button class="icon-btn cart-btn" title="Shopping Cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</nav>
+
+
+<div class="announcement">
+    ✨ Free shipping on orders above Rs. 5,000
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
