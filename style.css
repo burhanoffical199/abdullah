@@ -481,3 +481,30 @@ body {
         justify-content: center;
     }
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.section-1{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: aquamarine;
+    border: solid;
+    width: 90%;
+    margin: auto;
+    border-radius: 70px;
+}
+.section-1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.section-1 p{
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 20px;
+}
